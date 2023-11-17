@@ -6,9 +6,6 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class SearchBoxComponent {
 
-  // @ViewChild('txtTagInput')
-  // public txtInput!: ElementRef<HTMLInputElement>;
-
 
   @Input()
   public placeholder: string = '';
@@ -23,10 +20,5 @@ export class SearchBoxComponent {
     this.onValue.emit(value);
 
   }
-
-
-
-
-
 
 }
